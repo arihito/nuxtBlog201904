@@ -7,7 +7,7 @@
       投稿一覧
     </el-menu-item>
 
-    <el-menu-item index="4" style="float: right;" :route="{ path: `/user/${user.id}` }" v-if="user">
+    <el-menu-item index="4" style="float: right;" :route="{ path: `/users/${user.id}` }" v-if="user">
       <span>{{user.id}}</span>
     </el-menu-item>
     <el-menu-item index="4" style="float: right;" :route="{ path: '/' }" v-else>
